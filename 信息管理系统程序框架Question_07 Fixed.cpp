@@ -18,12 +18,12 @@ struct node
 };
 
 /**************************************
-¹¦ÄÜ£ºÊäÈëÑ§ÉúÐÅÏ¢
-ÐÎ²Î: elemType &x
-·µ»ØÖµ£ºvoid
-ÈÕÆÚ£º2025.03.02
-°æ±¾£ºv1
-×÷Õß: º«ÏÍìÏ
+åŠŸèƒ½ï¼šè¾“å…¥å­¦ç”Ÿä¿¡æ¯
+å½¢å‚: elemType &x
+è¿”å›žå€¼ï¼švoid
+æ—¥æœŸï¼š2025.03.02
+ç‰ˆæœ¬ï¼šv1
+ä½œè€…: éŸ©è´¤ç…œ
 ***************************************/
 void inputElement(elemType &x)
 {
@@ -31,12 +31,12 @@ void inputElement(elemType &x)
 }
 
 /**************************************
-¹¦ÄÜ£ºÊä³öÑ§ÉúÐÅÏ¢
-ÐÎ²Î: elemType x
-·µ»ØÖµ£ºvoid
-ÈÕÆÚ£º2025.03.02
-°æ±¾£ºv1
-×÷Õß: º«ÏÍìÏ
+åŠŸèƒ½ï¼šè¾“å‡ºå­¦ç”Ÿä¿¡æ¯
+å½¢å‚: elemType x
+è¿”å›žå€¼ï¼švoid
+æ—¥æœŸï¼š2025.03.02
+ç‰ˆæœ¬ï¼šv1
+ä½œè€…: éŸ©è´¤ç…œ
 ***************************************/
 void printElement(elemType x)
 {
@@ -45,12 +45,12 @@ void printElement(elemType x)
 }
 
 /**************************************
-¹¦ÄÜ£º³õÊ¼»¯Á´±í
-ÐÎ²Î: node *&head
-·µ»ØÖµ£ºvoid
-ÈÕÆÚ£º2025.03.02
-°æ±¾£ºv1
-×÷Õß: º«ÏÍìÏ
+åŠŸèƒ½ï¼šåˆå§‹åŒ–é“¾è¡¨
+å½¢å‚: node *&head
+è¿”å›žå€¼ï¼švoid
+æ—¥æœŸï¼š2025.03.02
+ç‰ˆæœ¬ï¼šv1
+ä½œè€…: éŸ©è´¤ç…œ
 ***************************************/
 void init(node *&head)
 {
@@ -59,12 +59,12 @@ void init(node *&head)
 }
 
 /**************************************
-¹¦ÄÜ£º²åÈëÑ§ÉúÐÅÏ¢
-ÐÎ²Î: node *&tail, elemType x
-·µ»ØÖµ£ºvoid
-ÈÕÆÚ£º2025.03.02
-°æ±¾£ºv1
-×÷Õß: º«ÏÍìÏ
+åŠŸèƒ½ï¼šæ’å…¥å­¦ç”Ÿä¿¡æ¯
+å½¢å‚: node *&tail, elemType x
+è¿”å›žå€¼ï¼švoid
+æ—¥æœŸï¼š2025.03.02
+ç‰ˆæœ¬ï¼šv1
+ä½œè€…: éŸ©è´¤ç…œ
 ***************************************/
 void insertElement(node *&tail, elemType x)
 {
@@ -76,12 +76,12 @@ void insertElement(node *&tail, elemType x)
 }
 
 /**************************************
-¹¦ÄÜ£ºÊä³öËùÓÐÑ§ÉúÐÅÏ¢
-ÐÎ²Î: node *head
-·µ»ØÖµ£ºvoid
-ÈÕÆÚ£º2025.03.02
-°æ±¾£ºv1
-×÷Õß: º«ÏÍìÏ
+åŠŸèƒ½ï¼šè¾“å‡ºæ‰€æœ‰å­¦ç”Ÿä¿¡æ¯
+å½¢å‚: node *head
+è¿”å›žå€¼ï¼švoid
+æ—¥æœŸï¼š2025.03.02
+ç‰ˆæœ¬ï¼šv1
+ä½œè€…: éŸ©è´¤ç…œ
 ***************************************/
 void printList(node *head)
 {
@@ -95,12 +95,12 @@ void printList(node *head)
 }
 
 /**************************************
-¹¦ÄÜ£º²éÕÒÑ§ÉúÐÅÏ¢
-ÐÎ²Î: node *head, string id
-·µ»ØÖµ£ºnode *
-ÈÕÆÚ£º2025.03.02
-°æ±¾£ºv1
-×÷Õß: º«ÏÍìÏ
+åŠŸèƒ½ï¼šæŸ¥æ‰¾å­¦ç”Ÿä¿¡æ¯
+å½¢å‚: node *head, string id
+è¿”å›žå€¼ï¼šnode *
+æ—¥æœŸï¼š2025.03.02
+ç‰ˆæœ¬ï¼šv1
+ä½œè€…: éŸ©è´¤ç…œ
 ***************************************/
 node *findElement(node *head, string id)
 {
@@ -115,12 +115,12 @@ node *findElement(node *head, string id)
 }
 
 /**************************************
-¹¦ÄÜ£ºÐÞ¸ÄÑ§ÉúÐÅÏ¢
-ÐÎ²Î: node *&temp, elemType
-·µ»ØÖµ: void
-ÈÕÆÚ£º2025.03.02
-°æ±¾£ºv1
-×÷Õß: º«ÏÍìÏ
+åŠŸèƒ½ï¼šä¿®æ”¹å­¦ç”Ÿä¿¡æ¯
+å½¢å‚: node *&temp, elemType
+è¿”å›žå€¼: void
+æ—¥æœŸï¼š2025.03.02
+ç‰ˆæœ¬ï¼šv1
+ä½œè€…: éŸ©è´¤ç…œ
 ***************************************/
 void changeElement(node *&temp, elemType x)
 {
@@ -128,32 +128,32 @@ void changeElement(node *&temp, elemType x)
 }
 
 /**************************************
-¹¦ÄÜ£º²éÕÒÉÏÒ»¸öÑ§ÉúµÄÐÅÏ¢
-ÐÎ²Î: node *head, node *temp
-·µ»ØÖµ£ºnode *
-ÈÕÆÚ£º2025.03.02
-°æ±¾£ºv1
-×÷Õß: º«ÏÍìÏ
+åŠŸèƒ½ï¼šæŸ¥æ‰¾ä¸Šä¸€ä¸ªå­¦ç”Ÿçš„ä¿¡æ¯
+å½¢å‚: node *head, node *temp
+è¿”å›žå€¼ï¼šnode *
+æ—¥æœŸï¼š2025.03.02
+ç‰ˆæœ¬ï¼šv1
+ä½œè€…: éŸ©è´¤ç…œ
 ***************************************/
 node *findPreElement(node *head, node *temp)
 {
-    node *p = head;
+    node *q = head;
 
-    while (p->next && p->next != temp)
+    while (q->next && q->next != temp)
     {
-        p = p->next;
+        q = q->next;
     }
 
-    return p;
+    return q;
 }
 
 /**************************************
-¹¦ÄÜ£ºÉ¾³ýÑ§ÉúÐÅÏ¢
-ÐÎ²Î: node *head, node *&tail, node *temp
-·µ»ØÖµ£ºvoid
-ÈÕÆÚ£º2025.03.02
-°æ±¾£ºv1
-×÷Õß: º«ÏÍìÏ
+åŠŸèƒ½ï¼šåˆ é™¤å­¦ç”Ÿä¿¡æ¯
+å½¢å‚: node *head, node *&tail, node *temp
+è¿”å›žå€¼ï¼švoid
+æ—¥æœŸï¼š2025.03.02
+ç‰ˆæœ¬ï¼šv1
+ä½œè€…: éŸ©è´¤ç…œ
 ***************************************/
 void deleteElement(node *head, node *&tail, node *temp)
 {
@@ -172,7 +172,7 @@ int main()
     elemType x;
     string id;
     node *temp;
-    // 1¡¢Á´±í»òË³Ðò±í³õÊ¼»¯
+    // 1ã€é“¾è¡¨æˆ–é¡ºåºè¡¨åˆå§‹åŒ–
     node *head;
     init(head);
     node *tail = head;
@@ -180,81 +180,81 @@ int main()
     while (true)
     {
         string op;
-        // 2¡¢¶ÁÈëÃüÁî×Ö·û´®
+        // 2ã€è¯»å…¥å‘½ä»¤å­—ç¬¦ä¸²
         cin >> op;
-        // 3¡¢Èç¹û ²åÈë
+        // 3ã€å¦‚æžœ æ’å…¥
         if (op == "Insert")
         {
             cout << "Insert:" << endl;
-            // 3.1¡¢ÊäÈëÑ§ÉúÐÅÏ¢
+            // 3.1ã€è¾“å…¥å­¦ç”Ÿä¿¡æ¯
             inputElement(x);
             temp = findElement(head, x.id);
-            // 3.2Èç¹û³É¹¦²åÈëÐÅÏ¢£¨º¯Êý£©£¬ÔòÊä³öÑ§ÉúÐÅÏ¢£¬
+            // 3.2å¦‚æžœæˆåŠŸæ’å…¥ä¿¡æ¯ï¼ˆå‡½æ•°ï¼‰ï¼Œåˆ™è¾“å‡ºå­¦ç”Ÿä¿¡æ¯ï¼Œ
 
             if (!temp)
             {
                 insertElement(tail, x);
                 printElement(x);
             }
-            else // ·ñÔò£¬Êä³ö "Failed\n"
+            else // å¦åˆ™ï¼Œè¾“å‡º "Failed\n"
             {
                 cout << "Failed" << endl;
             }
         }
-        // 4¡¢List
+        // 4ã€List
         if (op == "List")
         {
             cout << "List:" << endl;
-            // 4.1ÅÅÐò£¨º¯Êý£©
-            // 4.2Êä³ö£¨º¯Êý£©
+            // 4.1æŽ’åºï¼ˆå‡½æ•°ï¼‰
+            // 4.2è¾“å‡ºï¼ˆå‡½æ•°ï¼‰
             printList(head);
         }
-        // 5¡¢ÐÞ¸Ä
+        // 5ã€ä¿®æ”¹
         if (op == "Change")
         {
             cout << "Change:" << endl;
-            // 5.1ÊäÈëÑ§ÉúÐÅÏ¢
+            // 5.1è¾“å…¥å­¦ç”Ÿä¿¡æ¯
             inputElement(x);
             temp = findElement(head, x.id);
-            // 5.2Èç¹ûÐÞ¸Ä³É¹¦£¨º¯Êý£©£¬ÔòÊä³öÑ§ÉúÐÅÏ¢
+            // 5.2å¦‚æžœä¿®æ”¹æˆåŠŸï¼ˆå‡½æ•°ï¼‰ï¼Œåˆ™è¾“å‡ºå­¦ç”Ÿä¿¡æ¯
 
             if (temp)
             {
                 changeElement(temp, x);
                 printElement(temp->data);
             }
-            else // ·ñÔòÊä³ö Failed
+            else // å¦åˆ™è¾“å‡º Failed
             {
                 cout << "Failed" << endl;
             }
         }
-        // 6¡¢É¾³ýÑ§ÉúÐÅÏ¢
+        // 6ã€åˆ é™¤å­¦ç”Ÿä¿¡æ¯
         if (op == "Delete")
         {
             cout << "Delete:" << endl;
-            // 6.1ÊäÈëÑ§ºÅ
+            // 6.1è¾“å…¥å­¦å·
             cin >> id;
             temp = findElement(head, id);
-            // 6.2Èç¹û³É¹¦É¾³ý£¨º¯Êý£©Ôòdeleted
+            // 6.2å¦‚æžœæˆåŠŸåˆ é™¤ï¼ˆå‡½æ•°ï¼‰åˆ™deleted
 
             if (temp)
             {
                 deleteElement(head, tail, temp);
                 cout << "Deleted" << endl;
             }
-            else // ·ñÔò Failed
+            else // å¦åˆ™ Failed
             {
                 cout << "Failed" << endl;
             }
         }
-        // 7¡¢²éÕÒ£¬
+        // 7ã€æŸ¥æ‰¾ï¼Œ
         if (op == "Find")
         {
             cout << "Find:" << endl;
-            // ÊäÈëÑ§ºÅ
+            // è¾“å…¥å­¦å·
             cin >> id;
             temp = findElement(head, id);
-            // Èç¹û²éÕÒ³É¹¦£¨º¯Êý£©£¬Êä³öÑ§ÉúÐÅÏ¢£¬·ñÔò£¬Êä³öFailed
+            // å¦‚æžœæŸ¥æ‰¾æˆåŠŸï¼ˆå‡½æ•°ï¼‰ï¼Œè¾“å‡ºå­¦ç”Ÿä¿¡æ¯ï¼Œå¦åˆ™ï¼Œè¾“å‡ºFailed
 
             if (temp)
             {
@@ -276,24 +276,24 @@ int main()
 }
 
 /**************************************
-¹¦ÄÜ£º
-ÐÎ²Î:
-·µ»ØÖµ£º
-ÈÕÆÚ£º
-°æ±¾£º
-×÷Õß:
+åŠŸèƒ½ï¼š
+å½¢å‚:
+è¿”å›žå€¼ï¼š
+æ—¥æœŸï¼š
+ç‰ˆæœ¬ï¼š
+ä½œè€…:
 ***************************************/
 
 /**************************************
-Ö÷º¯ÊýÏîÄ¿£ºÑ§ÉúÐÅÏ¢¹ÜÀíÏµÍ³
-ÒªÇó£ºÊý¾Ý½á¹¹±ØÐëÓÃÁ´±í¡¢¾¡¿ÉÄÜÓÃº¯Êý
-1. ÊäÈëÊä³öÑ§ÉúÐÅÏ¢
-2. ´´½¨Á´±í
-3. Á´±íµÄ²åÈë½áµã
-4. Á´±íµÄ±éÀú¡¢´òÓ¡
-5. É¾³ý½áµã
-6. ²éÕÒ½áµã
-7. ÐÞ¸Ä½áµã
-8. ÅÅÐò
-9. ½»»»¶þ¸öelemTypeµÄÖµ
+ä¸»å‡½æ•°é¡¹ç›®ï¼šå­¦ç”Ÿä¿¡æ¯ç®¡ç†ç³»ç»Ÿ
+è¦æ±‚ï¼šæ•°æ®ç»“æž„å¿…é¡»ç”¨é“¾è¡¨ã€å°½å¯èƒ½ç”¨å‡½æ•°
+1. è¾“å…¥è¾“å‡ºå­¦ç”Ÿä¿¡æ¯
+2. åˆ›å»ºé“¾è¡¨
+3. é“¾è¡¨çš„æ’å…¥ç»“ç‚¹
+4. é“¾è¡¨çš„éåŽ†ã€æ‰“å°
+5. åˆ é™¤ç»“ç‚¹
+6. æŸ¥æ‰¾ç»“ç‚¹
+7. ä¿®æ”¹ç»“ç‚¹
+8. æŽ’åº
+9. äº¤æ¢äºŒä¸ªelemTypeçš„å€¼
 ****************************************/
